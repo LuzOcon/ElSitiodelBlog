@@ -207,6 +207,12 @@ main {
   gap: 30px;               /* Espacio entre tarjetas */
   flex-wrap: wrap;         /* Permite que bajen de línea si no caben */
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 .cardus {
     display: inline-block;
     text-align: center;
