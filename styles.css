@@ -9,11 +9,10 @@ body {
 /* Header */
 header {
   text-align: center;
-  padding: 40px 20px;
+  padding: 20px 20px;
   background: #1b1c3d;
   border-bottom: 2px solid #E91E63;
 }
-
 .titulo {
   font-size: 5em; 
   font-weight: bold;
@@ -23,52 +22,47 @@ header {
   color: transparent; /* Hace el texto transparente para que se vea el fondo */
   display: inline-block; /* Para que el fondo encaje con el texto */
 }
+.subtitulosMain {
+  font-size: 3em; 
+  font-weight: bold;
+  background: linear-gradient(to right, #E91E63, #FF8A65 ); 
+  -webkit-background-clip: text; /* Recorta el fondo al texto */
+  background-clip: text; /* Para una mejor compatibilidad */
+  color: transparent; /* Hace el texto transparente para que se vea el fondo */
+  display: inline-block; /* Para que el fondo encaje con el texto */
+ 
+}
 
 main {
   margin: 40px auto;
   padding: 0 20px;
 }
-
-.card1 {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    background: #1b1c3d;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-
-.card2 {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    background: #1b1c3d;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-.card3 {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    background: #1b1c3d;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-
-.card4 {
-    display: inline-block;
-
 .subtitulosCard{
     color: #E91E63;
 }
+.cards {
+  display: flex;           /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  gap: 30px;               /* Espacio entre tarjetas */
+  flex-wrap: wrap;         /* Permite que bajen de línea si no caben */
+}
+.card {
+    display: inline-block; 
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: #1b1c3d;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.generos {
+  display: flex;           /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  gap: 30px;               /* Espacio entre tarjetas */
+  flex-wrap: wrap;         /* Permite que bajen de línea si no caben */
+}
+
   
 
