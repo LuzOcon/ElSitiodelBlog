@@ -1,5 +1,3 @@
-
-/*! Inicio Navbar */
 nav {
   background: linear-gradient(90deg, #880e4f, #4a148c);
   color: #ec407a;
@@ -160,7 +158,6 @@ header {
   background-clip: text; /* Para una mejor compatibilidad */
   color: transparent; /* Hace el texto transparente para que se vea el fondo */
   display: inline-block; /* Para que el fondo encaje con el texto */
-  
 }
 .subtitulosMain {
   font-size: 3em; 
@@ -177,7 +174,9 @@ main {
   margin: 40px auto;
   padding: 0 20px;
 }
-
+.subtitulosCard{
+    color: #E91E63;
+}
 .cards {
   display: flex;           /* Activa Flexbox */
   justify-content: center; /* Centra horizontalmente */
@@ -195,33 +194,16 @@ main {
     margin-bottom: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
-
-.card4 {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    background: #1b1c3d;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+.card img {
+    width: 100%;       /* La imagen ocupa todo el ancho de la card */
+    height: 150px;     /* Altura fija para que todas tengan la misma altura */
+    object-fit: cover; /* Recorta y mantiene proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados como la card */
+    margin-top: 10px;  /* Espacio entre el texto y la imagen */
 }
-
-.subtitulosCard{
-    color: #E91E63;
-    .generos {
+.generos {
   display: flex;           /* Activa Flexbox */
   justify-content: center; /* Centra horizontalmente */
   gap: 30px;               /* Espacio entre tarjetas */
   flex-wrap: wrap;         /* Permite que bajen de línea si no caben */
 }
-
-  
-/* Selecciona todas las imágenes que tengan alt="imagenCard" */
-img[alt="imagenCard"] {
-  border: 3px solid #F06292;
-  border-radius: 15px;
-  width: 200px;
-}
-
