@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto · GAME MANIA</title>
+     <!-- Hoja de estilos global -->
+  <link rel="stylesheet" href="styles_Contacto.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<!-- Inicio Navbar -->
+    <nav>
+      <div class="logo">
+        <img src="Imagenes/logo.png" alt="Logo" />
+        <span>GameMania</span>
+      </div>
+      <ul>
+        <li><a href="blog.html">Inicio</a></li>
+        <li><a href="about_us.html">¿Quiénes somos?</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- Final Navbar -->
+
+  <!-- ============ CONTENIDO ============ -->
+  <main class="container">
+    <h1>Contacto</h1>
+    <p class="muted">
+      “Si necesitas ayuda o quieres colaborar con nosotros, no dudes en ponerte en contacto.”
+    </p>
+
+    <!-- Datos de contacto FALSOS, requeridos por el laboratorio -->
+    <section aria-labelledby="datos-contacto">
+      <h2 id="datos-contacto0">(Atención general / soporte)</h2>
+      <ul>
+        <li>Correo general: <a href="mailto:juan.perez@gmail.com">juan.perez@gmail.com</a></li>
+        
+        <li>Teléfono: +52 55 1234 5678</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Datos de contacto FALSOS, requeridos por el laboratorio -->
+    <section aria-labelledby="datos-contacto">
+      <h2 id="datos-contacto1">(Colaboraciones / comunidad)</h2>
+      <ul>
+        <li>Correo general: <a href="mailto:maria.lopez@gmail.com">maria.lopez@gmail.com</a></li>
+        
+        <li>Teléfono: +52 81 9876 5432</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!--! Redes sociales -->
+<section aria-labelledby="redes" class="socials-wrap">
+  <h2 id="redes">También puedes contactarnos mediante redes sociales</h2>
+
+  <nav class="socials" aria-label="Redes sociales">
+    <!--! Facebook -->
+    <a class="social" href="https://facebook.com/tu_cuenta_demo" target="_blank" rel="noopener">
+      <span class="sr-only">Facebook</span>
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" width="32" height="32">
+        <path d="M22 12.06C22 6.49 17.52 2 12 2S2 6.49 2 12.06c0 4.99 3.66 9.13 8.44 9.94v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.19 2.24.19v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.77l-.44 2.9h-2.33v7.03C18.34 21.19 22 17.05 22 12.06z"/>
+      </svg>
+    </a>
+
+    <!--! X / Twitter -->
+    <a class="social" href="https://x.com/tu_cuenta_demo" target="_blank" rel="noopener">
+      <span class="sr-only">X (Twitter)</span>
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" width="32" height="32">
+        <path d="M3 3h4.6l5.2 6.96L18.8 3H21l-6.8 8.69L21 21h-4.6l-5.5-7.36L9.2 21H3l7.1-9.11L3 3z"/>
+      </svg>
+    </a>
+
+    <!--! Instagram -->
+    <a class="social" href="https://instagram.com/tu_cuenta_demo" target="_blank" rel="noopener">
+      <span class="sr-only">Instagram</span>
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" width="32" height="32">
+        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.51 5.51 0 0 1 12 7.5zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5zm5.75-3.25a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25z"/>
+      </svg>
+    </a>
+
+  </nav>
+</section>
+
+
+    <!--! Formulario SIN backend -->
+    <section aria-labelledby="formulario-demo" style="margin-top: 16px;">
+      <h2 id="formulario-demo">Envíanos un mensaje</h2>
+      <p id="form-ayuda" class="muted">
+        
+      </p>
+
+      <form id="demo-form" aria-describedby="form-ayuda">
+        <div class="row">
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+
+          <label for="correo">Correo:</label>
+          <input id="correo" name="correo" type="email" placeholder="correo@ejemplo.com" required>
+
+          <label for="asunto">Asunto:</label>
+          <input id="asunto" name="asunto" type="text" placeholder="Motivo de tu mensaje" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+
+</body>
+</html>
