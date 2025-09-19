@@ -44,3 +44,95 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 /*! Final Navbar */
+
+/* Inicio Footer */
+footer {
+  box-sizing: border-box;
+  position: relative;
+  margin: 5px 0px 0px 0px;
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  font-style: normal;
+  padding: 4px 0 40px;
+  line-height: 25px;
+  font-family: 'Arial', sans-serif;
+  word-break: normal;
+  border-radius: 10px;
+}
+
+.main-nav {
+  position: sticky;
+  top: 20px;
+  left: 1%;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 0px;
+}
+
+.estructura {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+ul.proplistado {
+  list-style-type: none;
+}
+
+ul.proplistado li {
+  font-size: 16px;
+  margin-left: -38px;
+}
+
+.estiloemail {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.estiloemail ul {
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: -38px;
+}
+
+.estiloemailformulario {
+  position: relative;
+  margin-top: 50px;
+}
+
+.estiloemailformulario > input {
+  width: 200px;
+  border-radius: 5px;
+  border-color: #1072ef;
+  color: #363636;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.estiloemailformulario > input:focus {
+  border-color: #1072ef;
+  color: #000000;
+}
+
+.estiloemailformulario > button {
+  display: inline-block;
+  background: #4c81d2;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  border-radius: 6px;
+  outline: 0;
+  margin-left: 5px;
+  box-shadow: 2px 6px 10px 0 rgba(82, 82, 82, 0.1);
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 0.1rem ridge rgba(255, 255, 255, 1);
+}
+
+/* Final Footer */
